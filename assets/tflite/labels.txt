@@ -1,0 +1,6 @@
+0 Las Palmas
+1 Eiffel Tower
+2 Louvre
+3 Northern Lights
+4 Greece
+5 Cremallera

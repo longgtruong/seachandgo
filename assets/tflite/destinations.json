@@ -1,0 +1,70 @@
+{
+  "destinations": [
+    {
+      "label": "Eiffel Tower",
+      "city":"Paris",
+      "country": "France",
+      "details": "Op vakantie in Parijs wordt het met zoveel bezienswaardigheden lastig kiezen wat je eerst gaat doen. Ontdek de romantiek van de Franse stad aan de rivier Seine, bewonder de beroemde kunstwerken in een van de vele musea die Parijs rijk is, of ga je voor een dagje luxe shoppen?\n\nEn natuurlijk mag het meest bezochte monument van Frankrijk en het symbool van Parijs, de Eiffeltoren, niet overgeslagen worden. Wie een centraal gelegen 4 sterren hotel van TUI boekt, is er gelukkig zo: de Eiffeltoren. Beklim de 324 meter hoge toren voor een magisch uitzicht over de wereldstad. Of maak een bezoek extra sprookjesachtig, bijvoorbeeld tijdens een huwelijksreis, en bewonder de vele lichtjes 's avonds tijdens een klim naar de Champagne Bar in de top van de toren. Dat is pas een uniek glaasje champagne tijdens een vakantie in Parijs!",
+      "type": [
+        "hotel","art","sightseeing","beach"
+      ],
+      "latitude": 48.858093,
+      "longitude": 2.294694
+    },
+    {
+      "label": "Greece",
+      "city":"",
+      "country": "Greece",
+      "details": "",
+      "type": [
+        "hotel","art","sightseeing"
+      ],
+      "latitude": 37.983810,
+      "longitude": 23.727539
+    },
+    {
+      "label": "Louvre",
+      "city":"Paris",
+      "country": "France",
+      "details": "Cultuurliefhebbers kunnen tijdens een vakantie in Parijs hun hart ophalen in het wereldberoemde Louvre, net ten noorden van de Seine. Kijk in de ogen van Mona Lisa, een van de topstukken van de collectie met circa 20000 bezoekers per dag. Wie lang genoeg naar Lisa heeft gestaard, kan in het Louvre bovendien werken van onder andere Michelangelo, Rembrandt en Rafaël bewonderen tijdens een citytrip Parijs.",
+      "type": [
+        "hotel","art","sightseeing"
+      ],
+      "latitude": 48.860294,
+      "longitude": 2.338629
+    },
+    {
+      "label": "Northern Lights",
+      "city":"",
+      "country": "Iceland",
+      "details": "The Northern Lights are the visual result of solar particles entering the earth's magnetic field at high atmosphere and ionising. Their intensity depends on the activity of the sun and the acceleration speed of these particles. They appear as dancing lights high in the sky and vary in colour. The lights usually appear green, but occasionally also purple, red, pink, orange and blue. Their colours depend on the elements being ionised. Solar activity is not regular, however. Even if it is a dark, clear night, there could still be absolutely no chance of seeing the auroras, as there simply might not be any solar activity. It also means that on a midsummer day, the sky could be alive with Northern Lights, but they are simply obscured by the brightness of the sun.",
+      "type": [
+        "hotel","art","sightseeing"
+      ],
+      "latitude": 64.9630508,
+      "longitude": -19.0208359
+    },
+    {
+      "label": "Las Palmas",
+      "city":"Grand Canary Islands",
+      "country": "Spain",
+      "details": "Wil je genieten van goudgele stranden en wuivende palmen? Dan is Las Palmas de Gran Canaria dé vakantiebestemming deze zomer. Hier kun je een zonvakantie doorbrengen onder de talloze palmbomen waar deze hoofdstad van het Canarische eiland Gran Canaria haar naam aan dankt. Na zo’n 5 uur vliegen met TUI fly zet je voet in het noordoosten van het eiland in het zonnige Las Palmas de Gran Canaria. De stad ligt te midden van twee prachtige baaien en bijbehorende stadsstranden Playa de las Canteras en Playa de las Alcaravaneras. Vanuit het hotel van TUI, sta je direct met je voeten in het zand of op de boulevard langs het strand. Ga lekker zonnebaden of geniet in het helderblauwe water van de Atlantische Oceaan van diverse watersporten als zeilen of (wind)surfen. Ben je in april tot september op vakantie in Las Palmas? Dan kun je wedstrijden in de traditionele zeilsport Canarisch Latijnzeilen bekijken voor de kust.",
+      "type": [
+        "hotel","mountain","sightseeing", "beach"
+      ],
+      "latitude": 28.150000,
+      "longitude": -15.416667
+    },
+    {
+      "label": "Cremallera",
+      "city":"Vall de Nuria",
+      "country": "Andorra",
+      "details": "Vanuit Ribes de Freser kan men met een treintje (tandradbaan) naar het op 2.000 meter hoogte gelegen Nuria. De weg naar Nuria duurt ongeveer een uur en biedt een goed uitzicht over de berghellingen van de Pyreneeën.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 42.506317,
+      "longitude": 1.521835
+    }
+  ]
+}
