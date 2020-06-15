@@ -5,8 +5,6 @@ import 'package:searchtogo/Result.dart';
 import 'package:searchtogo/models/tuidestinations.dart';
 import 'package:searchtogo/screens/destination_screen.dart';
 
-import '../MainRepo.dart';
-
 class ResultCarousel extends StatelessWidget {
 
 
@@ -28,8 +26,7 @@ class ResultCarousel extends StatelessWidget {
           itemBuilder: (BuildContext context, int index) {
             TUIDestination destination = results[index].getDestination;
             String label = results[index]
-                .getLabel
-                .substring(2, results[index].getLabel.length);
+                .getLabel;
             return GestureDetector(
               onTap: () => Navigator.push(context,
                   MaterialPageRoute(builder: (_) => DestinationPage(destination))),

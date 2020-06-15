@@ -55,9 +55,14 @@ class HomeRepo {
 
     List<Result> results = [];
 
+    TUIDestination destination = getDestination("Holguin");
+    print(destination.country);
+
     for (int i=0;i<output.length;i++) {
-      String label = output[i]["label"].toString().substring(2, output[i]["label"].toString().length);
-      results.add(new Result(output[i]["label"],output[i]["confidence"],"", getDestination(label)));
+      String o = output[i]["label"].toString();
+      String label =  o.substring(o.indexOf(' ')+1);
+      print(label);
+      results.add(new Result(label,output[i]["confidence"],"", getDestination(label)));
     }
 
     return Scan(img,results);

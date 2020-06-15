@@ -65,6 +65,105 @@
       ],
       "latitude": 42.506317,
       "longitude": 1.521835
+    },
+    {
+      "label": "Bardo Museum",
+      "city":"Tunis",
+      "country": "Tunisia",
+      "details": "The national Bardo Museum is a jewel of Tunisian heritage. It is housed in an old Beylic palace dating back to the XIXth Century. It retraces, through its collections, a big part of Tunisia’s history (from Prehistory to the contemporary epoch) and contains the largest collection of mosaics in the world including the famous mosaic representing Virgil, the poet. ",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 36.8056,
+      "longitude": 10.1340
+    },
+    {
+      "label": "Playa Papagayo",
+      "city":"Papagayo",
+      "country": "Costa Rica",
+      "details": "Stel je eens voor dat je wakker wordt in een luxe 5 sterrenresort en zodra je de ramen opent het gebrul van slingeraapjes hoort. Dat de toekans af en aan vliegen. En dat je dolfijnen ziet spelen in het fonkelblauwe water van de Stille Oceaan. Het kan zomaar een gemiddelde ochtend zijn tijdens een vakantie Costa Rica. Helemaal als je kiest voor het luxe All Inclusive hotel aan Playa Papagayo. Dit vulkanische gebied bestaat uit puntige schiereilanden en parelwitte stranden. Op het strand voor het hotel is het dan ook goed toeven met een frisse cocktail in je hand en je tenen in het zand.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 10.726776,
+      "longitude": -85.80766
+    },
+    {
+      "label": "Tamarindo",
+      "city":"Tamarindo",
+      "country": "Costa Rica",
+      "details": "Ook in Tamarindo draait het om het wereldse uitzicht over de Pacific. Maar deze levendige badplaats staat ook bekend als partystad en als surfhotspot. Tijdens een vakantie Costa Rica kun je in Tamarindo verblijven in een luxe hotel met zeezicht. De shuttle brengt je naar het strand aan Tamarindo Bay waar het dankzij de hoge golven goed surfen is. ’s Avonds zorgen de hippe discotheken en bruisende barretjes voor een lange uitgaansnacht. Al is de sfeer dankzij de aanwezigheid van vele surfers vooral relaxt. ",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 10.297946 ,
+      "longitude": -85.840216
+    },
+    {
+      "label": "Havana",
+      "city":"Havana",
+      "country": "Cuba",
+      "details": "Natuurlijk drink je tijdens een strandvakantie in Cuba een mojito op een hagelwit strand. Maar Cuba is meer dan strand. Maak bijvoorbeeld kennis met het rijke verleden tijdens een vakantie in Havana. Swingende salsa, koloniale gebouwen en kleurrijke oldtimers bepalen in deze stad het straatbeeld. Belangrijke bezienswaardigheden in Havana zijn de Spaanse forten, Castillo del Morro en Fortaleza de San Carlos de la Cabana, beide aan de overkant van het Canal de Entrada gelegen. Vanuit het tweede fort werd in 1959 de Cubaanse Revolutie geleid. Tegenwoordig lijkt het indrukwekkende bouwwerk meer op een kleine stad waar je verschillende winkels en restaurants vindt. Wie 's avonds gezelligheid zoekt, kan naar Malecon, de kilom",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 23.13302,
+      "longitude": -82.38304
+    },
+    {
+      "label": "Varadero Beach",
+      "city":"Varadero",
+      "country": "Cuba",
+      "details": "Zonnen op Varadero Beach met een constant aangename wind, duiken in de Caribische Zee en 40 verschillende soorten koraal spotten, golfen op de enige golfbaan van Cuba: een vakantie Varadero biedt voor ieder wat wils. Deze mondaine badplaats ligt op een smal schiereiland nabij Havana, dus ook een excursie naar de Cubaanse hoofdstad is zo gemaakt.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 23.15678,
+      "longitude": -81.24441
+    },
+    {
+      "label": "Christoffelpark",
+      "city":"Willemstad",
+      "country": "Curacao",
+      "details": "Natuurliefhebbers kunnen ook hun hart ophalen tijdens een goedkope vakantie op Curaçao. Het Christoffelpark is het grootste nationale park van het eiland en dankzij de grote verzameling van exotische planten en prachtige vogels zeker de moeite waard om te bezoeken! Vanuit je hotel op Curaçao rijd je hier zo naartoe. Aldaar begint het avontuur pas echt. Na een klim over smalle paden richting 372 meter hoogte geniet je vanaf het hoogste punt van het eiland van een schitterend uitzicht. Zo ver je kunt kijken zie je een glooiend landschap dat op ieder punt groen is ingekleurd. Zeer indrukwekkend! Tip: plan je excursie naar het Christoffelpark tijdens de zomervakantie op Curaçao zo vroeg mogelijk, zodat het goed te doen is qua temperatuur. ",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 10.726776,
+      "longitude": -85.80766
+    },
+    {
+      "label": "Mambo Beach",
+      "city":"Willemstad",
+      "country": "Curacao",
+      "details": "Aan de zuidkant van Curaçao tref je het strand Mambo Beach. Dit is misschien wel een van de meest bezochte stranden van het eiland. De gelijknamige strandtent Mambo Beach ligt hier die erg populair. Je kunt er heerlijke gerechten eten, of genieten van een lekkere cocktail. Soms is er een filmavond en kun je genieten van een film vanuit een luie strandstoel. Zoek je het toch iets rustiger? Dan ligt het langste en witste strand een aantal kilometer verderop op Klein Curaçao. Je waant je in een paradijs. ",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 12.0866391,
+      "longitude": -68.8997912
+    },
+    {
+      "label": "Willemstad City",
+      "city":"Willemstad",
+      "country": "Curacao",
+      "details": "Het eiland Curaçao is niet alleen geschikt voor een zonvakantie aan de Caribische Zee, maar ook voor een culturele stadstour ben je op hier op de juiste plek. Zo tref je in de hoofdstad Willemstad een aantal bezienswaardigheden uit de Nederlandse koloniale tijd. Ook de welbekende Handelskade met koopmanshuizen met trapgevels in vrolijke kleuren is niet te missen tijdens een vakantie in Willemstad. Vanuit hier loop je richting de wijk Punda, een van de twee stadswijken van de stad waar je uitstekend kunt shoppen. Slenter door de pittoreske winkelstraatjes of sla groots in bij het moderne winkelcentrum Rif Fort. Hierna kun je een hapje gaan eten bij een van de restaurants die Willemstad rijk is. Met het uitzicht over de helderblauwe Caribische Zee smaakt het visgerecht nog lekkerder! Terug bij het 4,5 sterren hotel van TUI, kun je op het privéstrand van de zonsondergang genieten. ",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 10.726776,
+      "longitude": -85.80766
+    },
+    {
+      "label": "Holguin",
+      "city":"Holguín",
+      "country": "Cuba",
+      "details": "In het zuiden van Cuba ligt een paradijselijke plek op je te wachten. Tijdens een vakantie Holguín maak je kennis met de azuurblauwe baaien, parelwitte zandstranden en wuivende palmbomen die deze streek sieren. De luxe resorts maken het decor compleet. Zelfs in de wintermaanden kun je met een mojito in je hand relaxen onder de zon. Of de kleurrijke koraalriffen bewonderen. Beter dan dit wordt het niet. ",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 10.726776,
+      "longitude": -85.80766
     }
   ]
 }

@@ -109,8 +109,7 @@ class MainBloc extends Bloc<HomeEvent, HomeState> {
         scan = await repo.getLocation(event._img);
         results = scan.getOutput;
         for (int i=0;i<results.length;i++) {
-
-          results[i].destination.addForecasts(await repo.getWeatherByCountry(results[i].destination.country));
+          results[i].destination.addForecasts(await repo.getWeatherByCountry('Paris'));
         }
 //        if (scan.getOutput[0].getConfidence>0.98) {
           yield ImageScanned(scan.getOutput);

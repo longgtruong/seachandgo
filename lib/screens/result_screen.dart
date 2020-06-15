@@ -4,16 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:searchtogo/widget/ResultCarousel.dart';
 
 import '../MainBloc.dart';
-import '../MainRepo.dart';
-import '../Result.dart';
 
 class ResultPage extends StatelessWidget {
 
   final File imageFile;
   final ImageScanned state;
   final MainBloc mainBloc;
-
-  List<String> places = ["Curacao","Cancun","Maldives","Las Palmas"];
 
   ResultPage(this.imageFile, this.state , this.mainBloc);
 

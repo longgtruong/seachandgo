@@ -1,6 +1,13 @@
-0 Las Palmas
-1 Eiffel Tower
-2 Louvre
-3 Northern Lights
-4 Greece
-5 Cremallera
+0 Playa Papagayo
+1 Tamarindo
+2 Havana
+3 Varadero Beach
+4 Holguin
+5 Christoffelpark
+6 Willemstad City
+7 Mambo Beach
+8 Bardo Museum
+9 Eiffel Tower
+10 Louvre
+11 Northern Lights
+12 Las Palmas
