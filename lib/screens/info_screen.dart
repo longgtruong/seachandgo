@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:searchtogo/models/infolinks.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -9,8 +10,7 @@ class InfoPage extends StatefulWidget {
 
 class _InfoPageState extends State<InfoPage> {
 
-  Color bg = null;
-  List<String> tabs = ["hello","aaaa","abc"];
+  Color bg;
 
   _openURL(String link) async {
     bg = Colors.black12;
@@ -25,37 +25,25 @@ class _InfoPageState extends State<InfoPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: <Widget>[
-        Padding(
-          padding: const EdgeInsets.only(
-              top: 30,
-              left: 20
-          ),
-          child: Container(
-            width: 300,
-            decoration: BoxDecoration(
-                border: Border(
-                    bottom: BorderSide(
-                        color: Colors.black12,
-                        width: 1
-                    )
-                )
-            ),
-            child: Row(
+    return Center(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: <Widget>[
+          Center(
+            child: Stack(
               children: <Widget>[
-                Text("Info", style: TextStyle(fontSize: 50, fontFamily: 'Coolvetica'),),
-              ],
+                Image.asset('assets/images/bg-1.png'),
+                Positioned(
+                  bottom: 30.0,
+                  left: MediaQuery.of(context).size.width/2-40,
+                  child:Text("Info", style: TextStyle(fontSize: 75, fontFamily: 'Coolvetica',color: Colors.white)),
+                )
+              ]
             ),
           ),
-        ),
-        Padding(
-          padding: const EdgeInsets.only(
-            left: 20,
-            top: 20
-          ),
-          child: Container(
-            height: 400,
+          SizedBox(height:15.0),
+          Container(
+            height: 250.0,
             width: 300,
             child: ListView.builder(
               itemCount: links.length,
@@ -73,7 +61,7 @@ class _InfoPageState extends State<InfoPage> {
                           vertical: 10,
                           horizontal: 0
                         ),
-                        child: Text(links[index].name),
+                        child: Text(links[index].name,style: TextStyle(color: Colors.blue),),
                       ),
                     ),
                   ),
@@ -81,8 +69,34 @@ class _InfoPageState extends State<InfoPage> {
               },
             )
           ),
-        )
-      ]
+          SizedBox(height:20.0),
+          FlatButton(
+            onPressed: () {
+
+            },
+            child: Container(
+              width: 200,
+              height: 50,
+              decoration: const BoxDecoration(
+                  color: Colors.blue,
+                  borderRadius:
+                  BorderRadius.all(Radius.circular(30))),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  FaIcon(
+                      FontAwesomeIcons.solidAddressCard,
+                      color: Colors.white,
+                  ),
+                  Text('CONTACT US',
+                      style: TextStyle(
+                          fontSize: 15, color: Colors.white)),
+                ],
+              ),
+            ),
+          )
+        ]
+      ),
     );
   }
 }

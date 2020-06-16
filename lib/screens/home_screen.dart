@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:searchtogo/MainBloc.dart';
+import 'package:searchtogo/animation/FadeAnimation.dart';
 import 'package:searchtogo/screens/result_screen.dart';
 
 class Homescreen extends StatefulWidget {
@@ -54,7 +55,9 @@ class _HomeScreenState extends State<Homescreen> {
                         }
                       },
                     ),
-                    SizedBox(width: 20.0,),
+                    SizedBox(
+                      width: 20.0,
+                    ),
                     GestureDetector(
                       child: Container(
                         child: Center(
@@ -87,66 +90,70 @@ class _HomeScreenState extends State<Homescreen> {
       child: BlocBuilder<MainBloc, HomeState>(
         builder: (context, state) {
           if (state is NotUploaded)
-            return Center(
-              child: Container(
-                  width: 300.0,
-                  color: Colors.white,
-                  child: Column(
-                    children: <Widget>[
-                      SizedBox(height: 150.0),
-                      Center(
-                          child: Text(
-                        "UPLOAD YOUR PHOTO",
-                        style: TextStyle(
-                            fontSize: 20.0,
-                            color: Color(0xff09245f),
-                            fontFamily: 'Coolvetica'),
-                      )),
-                      SizedBox(height: 30.0),
-                      GestureDetector(
-                        onTap: () => {_showDialog(context)},
-                        child: Container(
-                          width: 250,
-                          height: 250,
-                          decoration: BoxDecoration(
-                              border: Border.all(
-                                  color: Color(0xff09245f), width: 1)),
-                          child: Center(
-                            child: Icon(
-                              Icons.add,
-                              size: 100.0,
+            return FadeIn(
+              0.5,
+              Center(
+                child: Container(
+                    width: 300.0,
+                    color: Colors.white,
+                    child: Column(
+                      children: <Widget>[
+                        SizedBox(height: 150.0),
+                        Center(
+                            child: Text(
+                          "UPLOAD YOUR PHOTO",
+                          style: TextStyle(
+                              fontSize: 20.0,
+                              color: Color(0xff09245f),
+                              fontFamily: 'Coolvetica'),
+                        )),
+                        SizedBox(height: 30.0),
+                        GestureDetector(
+                          onTap: () => {_showDialog(context)},
+                          child: Container(
+                            width: 250,
+                            height: 250,
+                            decoration: BoxDecoration(
+                                border: Border.all(
+                                    color: Color(0xff09245f), width: 1)),
+                            child: Center(
+                              child: Icon(
+                                Icons.add,
+                                size: 100.0,
+                              ),
                             ),
                           ),
                         ),
-                      ),
-                      SizedBox(height: 30.0),
-                      FlatButton(
-                        padding: const EdgeInsets.all(0.0),
-                        child: Container(
-                          width: 200,
-                          height: 50,
-                          decoration: const BoxDecoration(
-                              color: Colors.grey,
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(30))),
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: <Widget>[
-                              IconButton(
-                                icon: Icon(
+                        SizedBox(height: 30.0),
+                        FlatButton(
+                          onPressed: () {
+
+                          },
+                          padding: const EdgeInsets.all(0.0),
+                          child: Container(
+                            width: 200,
+                            height: 50,
+                            decoration: const BoxDecoration(
+                                color: Colors.grey,
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(30))),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: <Widget>[
+                                Icon(
                                   Icons.search,
                                   color: Colors.white,
                                 ),
-                              ),
-                              Text('SCAN PHOTO',
-                                  style: TextStyle(
-                                      fontSize: 15, color: Colors.white)),
-                            ],
+                                Text('SCAN PHOTO',
+                                    style: TextStyle(
+                                        fontSize: 15, color: Colors.white)),
+                              ],
+                            ),
                           ),
                         ),
-                      ),
-                    ],
-                  )),
+                      ],
+                    )),
+              ),
             );
           else if (state is ImageUploaded) {
             return Center(
@@ -197,13 +204,11 @@ class _HomeScreenState extends State<Homescreen> {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
-                              IconButton(
-                                icon: Icon(
-                                  Icons.search,
-                                  color: Colors.white,
-                                ),
+                              Icon(
+                                Icons.search,
+                                color: Colors.white,
                               ),
-                              Text('SCAN PICTURE',
+                              Text('SCAN PHOTO',
                                   style: TextStyle(fontSize: 15)),
                             ],
                           ),
@@ -259,16 +264,19 @@ class LoadingPage extends StatelessWidget {
           SizedBox(
             height: 30,
           ),
-          Container(
-              height: 250,
-              width: 250,
-              child: FittedBox(
-                child: Hero(
-                  tag: 'img',
-                  child: CircleAvatar(
-                      radius: 30, backgroundImage: AssetImage(imageFile.path)),
-                ),
-              )),
+          Stack(children: <Widget>[
+            Container(
+                height: 250,
+                width: 250,
+                child: FittedBox(
+                  child: Hero(
+                    tag: 'img',
+                    child: CircleAvatar(
+                        radius: 30,
+                        backgroundImage: AssetImage(imageFile.path)),
+                  ),
+                )),
+          ]),
           SizedBox(
             height: 80,
           ),

@@ -21,6 +21,8 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  carousel_slider:
+  simple_animations:
   font_awesome_flutter:
   jiffy:
   percent_indicator: "^2.1.1"

@@ -1,7 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:searchtogo/widget/ResultCarousel.dart';
+import 'package:searchtogo/animation/FadeAnimation.dart';
+import 'package:searchtogo/widget/Carousel.dart';
 
 import '../MainBloc.dart';
 
@@ -49,8 +50,11 @@ class ResultPage extends StatelessWidget {
                 color: Colors.black,
                 size: 60.0,
               ),
-              Text("Top Locations",style: TextStyle(fontSize: 30.0,fontFamily: 'Coolvetica'),),
-              ResultCarousel(state),
+              FadeIn(1.8,Text("Top Locations",style: TextStyle(fontSize: 30.0,fontFamily: 'Coolvetica'))),
+              SizedBox(
+                height: 30,
+              ),
+              FadeIn(2.0,CarouselWithIndicator(state),),
               SizedBox(
                 height: 30,
               ),
