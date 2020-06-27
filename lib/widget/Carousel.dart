@@ -8,7 +8,8 @@ import '../Result.dart';
 class CarouselWithIndicator extends StatefulWidget {
 
   final ImageScanned state;
-  CarouselWithIndicator(this.state);
+  final MainBloc mainBloc;
+  CarouselWithIndicator(this.state,this.mainBloc);
 
   @override
   State<StatefulWidget> createState() {
@@ -23,8 +24,9 @@ class _CarouselWithIndicatorState extends State<CarouselWithIndicator> {
   @override
   Widget build(BuildContext context) {
 
+    MainBloc mainBloc = widget.mainBloc;
     List<Result> results = widget.state.results;
-    final List<Widget> imageSliders = results.map((result) => CarouselItem(result)).toList();
+    final List<Widget> imageSliders = results.map((result) => CarouselItem(result,mainBloc)).toList();
 
     return Column(
           children: [
@@ -34,6 +36,7 @@ class _CarouselWithIndicatorState extends State<CarouselWithIndicator> {
                 height: 430.0,
                   autoPlay: true,
                   enlargeCenterPage: true,
+                  enableInfiniteScroll: false,
                   onPageChanged: (index, reason) {
                     setState(() {
                       _current = index;

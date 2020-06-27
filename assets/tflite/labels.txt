@@ -4,10 +4,30 @@
 3 Varadero Beach
 4 Holguin
 5 Christoffelpark
-6 Willemstad City
+6 Willemstad
 7 Mambo Beach
 8 Bardo Museum
 9 Eiffel Tower
 10 Louvre
 11 Northern Lights
 12 Las Palmas
+13 Paphos
+14 Limassol
+15 Troödosgebergte
+16 Legoland
+17 Jutland
+18 Copenhagen
+19 Eagle Beach
+20 Oranjestad
+21 Palm Beach
+22 Antwerpen
+23 Froidchapelle
+24 Nieuwpoort
+25 Kralendijk
+26 Lac Bay
+27 Herzegovina
+28 Sarajevo
+29 Republika Srpska
+30 Rio Grande Do Norte
+31 Fortaleza
+32 Cumbuco

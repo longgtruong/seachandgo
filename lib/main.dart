@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:searchtogo/MainBloc.dart';
 import 'package:searchtogo/MainRepo.dart';
 import 'package:searchtogo/screens/home_screen.dart';
-import 'package:searchtogo/screens/info_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -37,46 +36,13 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  int _currentIndex = 0;
-
-  final tabs = [
-    Homescreen(),
-    InfoPage(),
-    Center(child: Text("History")),
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: BlocProvider(
+        child: Homescreen(),
         create: (context) => MainBloc(HomeRepo()),
-        child: tabs[_currentIndex],
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentIndex,
-        items:[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            title: Text("Home"),
-            backgroundColor: Color(0xff09245f)
-          ),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.info),
-              title: Text("Info"),
-              backgroundColor: Color(0xff09245f)
-          ),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.history),
-              title: Text("History"),
-              backgroundColor: Color(0xff09245f)
-          ),
-        ],
-        onTap: (index) {
-          setState(() {
-            _currentIndex = index;
-          });
-        },
-      ),// This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }

@@ -3,7 +3,7 @@
     {
       "label": "Eiffel Tower",
       "city":"Paris",
-      "country": "France",
+      "country": "Frankrijk",
       "details": "Op vakantie in Parijs wordt het met zoveel bezienswaardigheden lastig kiezen wat je eerst gaat doen. Ontdek de romantiek van de Franse stad aan de rivier Seine, bewonder de beroemde kunstwerken in een van de vele musea die Parijs rijk is, of ga je voor een dagje luxe shoppen?\n\nEn natuurlijk mag het meest bezochte monument van Frankrijk en het symbool van Parijs, de Eiffeltoren, niet overgeslagen worden. Wie een centraal gelegen 4 sterren hotel van TUI boekt, is er gelukkig zo: de Eiffeltoren. Beklim de 324 meter hoge toren voor een magisch uitzicht over de wereldstad. Of maak een bezoek extra sprookjesachtig, bijvoorbeeld tijdens een huwelijksreis, en bewonder de vele lichtjes 's avonds tijdens een klim naar de Champagne Bar in de top van de toren. Dat is pas een uniek glaasje champagne tijdens een vakantie in Parijs!",
       "type": [
         "hotel","art","sightseeing","beach"
@@ -14,7 +14,7 @@
     {
       "label": "Greece",
       "city":"",
-      "country": "Greece",
+      "country": "Griekenland",
       "details": "",
       "type": [
         "hotel","art","sightseeing"
@@ -25,7 +25,7 @@
     {
       "label": "Louvre",
       "city":"Paris",
-      "country": "France",
+      "country": "Frankrijk",
       "details": "Cultuurliefhebbers kunnen tijdens een vakantie in Parijs hun hart ophalen in het wereldberoemde Louvre, net ten noorden van de Seine. Kijk in de ogen van Mona Lisa, een van de topstukken van de collectie met circa 20000 bezoekers per dag. Wie lang genoeg naar Lisa heeft gestaard, kan in het Louvre bovendien werken van onder andere Michelangelo, Rembrandt en Rafaël bewonderen tijdens een citytrip Parijs.",
       "type": [
         "hotel","art","sightseeing"
@@ -36,7 +36,7 @@
     {
       "label": "Northern Lights",
       "city":"",
-      "country": "Iceland",
+      "country": "Ijsland",
       "details": "The Northern Lights are the visual result of solar particles entering the earth's magnetic field at high atmosphere and ionising. Their intensity depends on the activity of the sun and the acceleration speed of these particles. They appear as dancing lights high in the sky and vary in colour. The lights usually appear green, but occasionally also purple, red, pink, orange and blue. Their colours depend on the elements being ionised. Solar activity is not regular, however. Even if it is a dark, clear night, there could still be absolutely no chance of seeing the auroras, as there simply might not be any solar activity. It also means that on a midsummer day, the sky could be alive with Northern Lights, but they are simply obscured by the brightness of the sun.",
       "type": [
         "hotel","art","sightseeing"
@@ -47,7 +47,7 @@
     {
       "label": "Las Palmas",
       "city":"Grand Canary Islands",
-      "country": "Spain",
+      "country": "Spanje",
       "details": "Wil je genieten van goudgele stranden en wuivende palmen? Dan is Las Palmas de Gran Canaria dé vakantiebestemming deze zomer. Hier kun je een zonvakantie doorbrengen onder de talloze palmbomen waar deze hoofdstad van het Canarische eiland Gran Canaria haar naam aan dankt. Na zo’n 5 uur vliegen met TUI fly zet je voet in het noordoosten van het eiland in het zonnige Las Palmas de Gran Canaria. De stad ligt te midden van twee prachtige baaien en bijbehorende stadsstranden Playa de las Canteras en Playa de las Alcaravaneras. Vanuit het hotel van TUI, sta je direct met je voeten in het zand of op de boulevard langs het strand. Ga lekker zonnebaden of geniet in het helderblauwe water van de Atlantische Oceaan van diverse watersporten als zeilen of (wind)surfen. Ben je in april tot september op vakantie in Las Palmas? Dan kun je wedstrijden in de traditionele zeilsport Canarisch Latijnzeilen bekijken voor de kust.",
       "type": [
         "hotel","mountain","sightseeing", "beach"
@@ -69,7 +69,7 @@
     {
       "label": "Bardo Museum",
       "city":"Tunis",
-      "country": "Tunisia",
+      "country": "Tunesië",
       "details": "The national Bardo Museum is a jewel of Tunisian heritage. It is housed in an old Beylic palace dating back to the XIXth Century. It retraces, through its collections, a big part of Tunisia’s history (from Prehistory to the contemporary epoch) and contains the largest collection of mosaics in the world including the famous mosaic representing Virgil, the poet. ",
       "type": [
         "hotel","mountain","sightseeing"
@@ -164,6 +164,237 @@
       ],
       "latitude": 10.726776,
       "longitude": -85.80766
+    },
+    {
+      "label": "Jutland",
+      "city":"Jutland",
+      "country": "Denemarken",
+      "details":"Voor velen is Jutland dé ideale bestemming voor een vakantie Denemarken. Zodra je de grens met Duitsland oversteekt ben je namelijk in deze regio. Een regio die dankzij de glooiende duinen, zachte stranden en vele weilanden wel iets wegheeft van Nederland. Vikingstadjes zoals Ribe maken het decor van Jutland compleet. En dan is er ook nog het duingebied vol edelherten en kraanvogels van het Thy National Park. Dit onontdekte natuurgebied laat zich het best ontdekken tijdens een wandeltocht. Kies bij TUI voor het rustige vakantiepark in Visgø en je loopt het Nationale Park zo binnen.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude":55.372782 ,
+      "longitude":9.12227
+    },
+    {
+      "label": "Legoland",
+      "city":"Billund",
+      "country": "Denemarken",
+      "details":"Met zijn brede stranden, kleurrijke stadjes en onontdekte bosgebieden is Denemarken een enorm fotogeniek land. En ondanks dat is er van massatoerisme geen sprake. Echt tot rust komen gaat tijdens een vakantie Denemarken dan ook wel lukken. Behalve als je kiest voor een luxe hotel bij LEGOLAND®. Al is dit attractiepark vol legosteentjes bij de stad Billund wel heel erg leuk voor de kinderen. En dankzij de spannende X-treme Racers achtbaan en het safaripark GIVSKUD ZOO is er ook genoeg te doen en zien voor de ouders. Bijkomen kan ’s avonds op het vakantiepark van TUI naast Legoland in Denemarken.\n\n",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 55.44539,
+      "longitude":9.072100
+    },
+    {
+      "label": "Troödosgebergte",
+      "city":"Hart van Cyprus",
+      "country": "Cyprus",
+      "details":"Naast prachtige stranden vind je op Cyprus ook terrassen met geurige wijngaarden en olijfbomen, uitgestrekte plantages met groente- en seizoensfruit. Van zongerijpte tomaten en sappige perziken tot zoete kersen. Met liefde gekweekt. En dat proef je. In hartje Cyprus zetelt het bosrijke Troödosgebergte met diepe ravijnen en waterpoelen waar stomende watervallen in uitmonden. Verkoeling vind je tijdens een bezoek aan het Kykkos klooster, onder de prachtige bogen van de lange wandelgangen. Wordt het tijdens de zinderende zomer op Cyprus te warm? Ook dan is het Troödos gebergte dé place to be tijdens een zonvakantie op Cyprus. De temperatuur ligt er al snel zo'n 10 graden lager dan aan de kust.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 0.0,
+      "longitude":0.0
+    },
+    {
+      "label": "Limassol",
+      "city":"Limassol",
+      "country": "Cyprus",
+      "details":"Voorkeur voor een strandvakantie op Cyprus? Dan is een vakantie naar Limassol een goed idee. Deze belangrijke havenstad ligt aan de zuidkust van het eiland en is gelegen aan de Baai van Akrotiri. Op het strand Ladies Mile kun je heerlijk genieten van het zonnetje, terwijl de kids over de stormbaan rennen. Voel je je als een vis in het water? Op dit strand is het ook mogelijk om te duiken en snorkelen in de Middellandse Zee. Hierna kun je je winkelhart ophalen in de oude binnenstad met een wirwar aan kleine straatjes met tal van winkels en knusse boetieks. Na een enerverende dag kom je in het luxe hotel op Cyprus weer helemaal bij in het wellness centrum.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 34.707130,
+      "longitude":33.022617
+    },
+    {
+      "label": "Paphos",
+      "city":"Paphos",
+      "country": "Cyprus",
+      "details":"In de havenstad Paphos, gelegen in het zuidwesten van het eiland, proef je het klassieke verleden en de mythologische sfeer van Cyprus. Het wemelt hier dan ook van grootschalige archeologische monumenten en opgravingen. Een goed voorbeeld hiervan zijn de Koningsgraven. Alhoewel de naam doet vermoeden dat hier koningen zijn begraven, werden hier de edelen begraven. Ook het imposante kasteel van Paphos, dat in de haven deels in het water staat, is een bezichtiging waard tijdens een Last Minute naar Cyprus. Je wordt hier getrakteerd op een panoramisch uitzicht over stad en zee. Een andere traktatie vind je in de haven in 'Kato Paphos', de benedenstad, met een boulevard en tal van restaurants",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 34.77679,
+      "longitude":32.42451
+    },
+    {
+      "label": "Sunny Beach",
+      "city":"Burgas",
+      "country": "Bulgarije",
+      "details":"Dé badplaats van Bulgarije is Sunny Beach. En die doet dankzij de vele zonuren in de zomer zijn naam eer aan. Geniet tijdens de vakantie Bulgarije 15 uur lang van de zon (per dag) en steek je voeten in het warme, parelwitte zand. Omdat het strand van Sunny Beach 8 kilometer lang is kun je er ook prima een lange strandwandeling maken. Super romantisch zo’n vakantie Bulgarije als je de zon langzaam de Zwarte Zee in ziet zakken. En na de zonsondergang komt Sunny Beach echt tot leven. Dan barst het uitgaansleven namelijk los. Geen wonder dat je er veel jongeren tegenkomt.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude":42.688332 ,
+      "longitude": 27.713919
+    },
+    {
+      "label": "Rio Grande Do Norte",
+      "city":"Pipa",
+      "country": "Brazilië",
+      "details":"Watersportliefhebbers en rustzoekers komen voor hun vakantie in Brazilië naar het kleurrijke Pipa. Deze kleine badplaats ligt in de regio Natal, op 1,5 uur rijden van de gelijknamige stad. Slapen doe je er in een pittoreske pousada van TUI in het centrum. Relax bij het zwembad of slenter naar het Pipa-zandstrand voor een frisse duik in de Atlantische Oceaan. Hier volg je overigens ook je eerste surfles en huur je een kajak voor een tocht over zee. Wie weet komen de dolfijnen je nog wel gezelschap houden terwijl je over de golven peddelt.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": -6.233333,
+      "longitude": -35.05
+    },
+    {
+      "label": "Cumbuco",
+      "city":"Cumbuco",
+      "country": "Brazilië",
+      "details":"Net buiten de stad Fortaleza vind je de kleine badplaats Cumbuco. Hoewel het toeristisch is, kent het toch een rustige sfeer. Je verblijft in een hotel of appartement direct aan het zandstrand van Cumbuco. Voor de perfecte strandsiësta hoef je dus maar een paar stappen te zetten. Trek je er graag op uit tijdens je vakantie in Brazilië? Dan is Cumbuco ook nog eens een prima uitvalsbasis. In een klein uur sta je al in het centrum van bruisend Fortaleza. Ga er shoppen in de oude gevangenis, flaneren over de Beira Mar-boulevard of swingen in een van de vele nachtclubs",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": -3.619647,
+      "longitude": -38.749908
+    },
+    {
+      "label": "Fortaleza",
+      "city":"Fortaleza",
+      "country": "Brazilië",
+      "details":"Ontdek tijdens een vakantie Fortaleza de paradijselijke plekken van Brazilië. Fortaleza is een stad in het noorden van Brazilië dat bekend staat om zijn forró feesten. De brede stranden en cocktailbarretjes aan de Beira Mar boulevard maken het decor compleet. Bij TUI boek je een startpakket Fortaleza met 2 overnachtingen in deze stad. De rest van de reis mag je zelf invullen. Wordt het de Amazone? Of Rio de Janeiro?",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": -3.731862,
+      "longitude":-38.526669
+    },
+    {
+      "label": "Republika Srpska",
+      "city":"Trebinje",
+      "country": "Bosnië-Herzegovina",
+      "details":"Met 260 zonnige dagen per jaar is de kans groot dat je hier wel goed zit tijdens je vakantie. De authentieke cuisine en de kilometerslange uitgestrekte wijngaarden met autochtone druifsoorten Žilavka en Blatina zijn een waar paradijs voor elke Bourgondiër. Maar naast het gastronomisch centrum is Trebinje ook de historische en culturele hoofdstad van Oost-Herzegovina. Na een kennismaking en grondige verkenning van de stad wordt de dag bekroond met een geweldige wijnproeverij. Na een introductie, rondleiding en bezoek aan de wijnkelders is het tijd om te proeven van de wijnen, olijven, olijfolies en kazen. De meeste wijnen uit Herzegovina en Dalmatië liggen niet zomaar bij onze slijter. Ze worden ingekocht door hotels of geschonken in sterren restaurants.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 42.707127,
+      "longitude":18.349470
+    },
+    {
+      "label": "Herzegovina",
+      "city":"Mostar",
+      "country": "Bosnië-Herzegovina",
+      "details":"Een van de meest fotogenieke plekken in Bosnië-Herzegovina is de stad Mostar. En dat heeft alles te maken met de witte Stari Most brug over de Neretva rivier. De stenen boogbrug kun je het best bewonderen vanaf de nabijgelegen Lučki most brug. Ondertussen kijk je uit op middeleeuwse huizen met rode daken, groene bomen en het diepblauwe water van de rivier. Een schilderachtig plaatje dat een plek verdient in het vakantiealbum. Let tijdens de vakantie Bosnië-Herzegovina goed op, want in de namiddag springen lokale daredevils van de Stari Most af! Zelf de sprong wagen vanaf de 19 meter hoge brug mag. Maar het hoeft niet.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 43.343033,
+      "longitude":17.807894
+    },
+    {
+      "label": "Sarajevo",
+      "city":"Sarajevo",
+      "country": "Bosnië-Herzegovina",
+      "details":"Avontuurlijk en historisch kun je een vakantie Bosnië-Herzegovina wel noemen. In het land in Zuidoost-Europa passeer je schilderachtige steden, kleurrijke gebouwen en culturele plekken. En dat zonder massatoerisme. Vooral de hoofdstad Sarajevo is indrukwekkend. Dat komt omdat in deze stad de Westerse wereld en de Oosterse cultuur samen komen. Orthodoxe kerken, synagogen en moskeeën staan hier gebroederlijk naast elkaar. Veel van die bouwwerken hebben de kogelinslagen van de Balkanoorlog nog in de muren zitten. Goed opletten dus. Wandel zeker ook eens naar het oude stadscentrum Bašcaršija dat met zijn smalle straatjes, Turkse bazaars en kleurrijke panden aandoet als een sprookje uit 1000-en-een nacht",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude":43.856430 ,
+      "longitude":18.413029
+    },
+    {
+      "label": "Lac Bay",
+      "city":"Lac Bay",
+      "country": "Bonaire",
+      "details":"Of je nu komt voor de geweldige golven of om op een tropisch strand aan je vakantiekleurtje te werken, Lac Bay is dé place to be voor een relaxte strandvakantie op Bonaire. De aangename temperatuur, ondiepe lagune en gunstige wind maken Lac Bay een ware hotspot voor surfers. Maar ook om te duiken zit je met een vakantie Lac Bay helemaal goed. Wie weet spot je tussen het kleurrijke koraal wel een zeeschildpad!",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude":12.105 ,
+      "longitude":-68.246
+    },
+    {
+      "label": "Kralendijk",
+      "city":"Kralendijk",
+      "country": "Bonaire",
+      "details":"Wie kiest voor een verblijf in een hotel in Kralendijk, maakt tijdens een vliegvakantie op Bonaire kennis met het culturele centrum van het Caribische eiland. Kralendijk is de hoofdstad van Bonaire en kent een aantal bezienswaardigheden, waaronder het 17e-eeuwse Fort Oranje gelegen aan de zuidkant. Dit fort is gebouwd ter verdediging van Bonaire. Vanuit het All Inclusive hotel of een ruim appartement op Bonaire kun je ook een bezoek brengen aan het centrum van Kralendijk. Het centrum van de stad bestaat uit een boulevard (Kaya Craane) en de winkelstraat Kaya Grandi. Een van de eerste dingen die je waarschijnlijk zullen opvallen zijn de koloniale huizen in pastelkleur en de okergele monumentale gebouwen. Even afkoelen tijdens deze zonvakantie op Bonaire? Strijk dan neer op een van de gezellige terrasjes en bestel een verkoelend drankje.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 12.152911 ,
+      "longitude": -68.273444
+    },
+    {
+      "label": "Nieuwpoort",
+      "city":"Nieuwpoort",
+      "country": "België",
+      "details":"De oude stadskern bevindt zich op een grote drie kilometer van de kustlijn. Aan de kust is echter een tweede nieuwe toeristische kern Nieuwpoort zelf ligt aan de kust geklemd tussen de gemeenten Koksijde en Middelkerke (meer bepaald hun respectievelijke kernen Oostduinkerke en Lombardsijde). Door de grote uitgestrektheid van vooral Ramskapelle in het binnenland grenst de hele gemeente Nieuwpoort aan een groot aantal dorpen.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude":51.13008 ,
+      "longitude":2.75135
+    },
+    {
+      "label": "Froidchapelle",
+      "city":"Froidchapelle",
+      "country": "België",
+      "details":"Ontdek de ongerepte schoonheid van de Ardennen tijdens een vakantie Froidchapelle. Dit pittoreske dorpje bevindt zich in het zuiden van Wallonië en is een uitstekende uitvalsbasis voor een avontuurlijke en natuurrijke vakantie bij Les Lacs de l’Eau d’Heure, het grootste waterrecreatiegebied van België. Tip: bezoek de Abdij van Scourmont in Chimay voor een heerlijk trappistenbiertje.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 50.1500253,
+      "longitude":4.3282158
+    },
+    {
+      "label": "Antwerpen",
+      "city":"Antwerpen",
+      "country": "België",
+      "details":"Om de havenstad Antwerpen te ontdekken, is een weekendje weg haast niet genoeg. Er is zoveel te beleven in deze Vlaamse stad in het noorden van België. Van een wandeling langs de rivier De Schelde, een bezoek aan de Onze-Lieve-Vrouwekathedraal tot shoppen aan de Meir. Een pauze met een Antwerps 'handje' of 'bolleke' is een lekker tussendoortje tijdens een voordelige stedentrip Antwerpen.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude":51.260197 ,
+      "longitude": 4.402771
+    },
+    {
+      "label": "Eagle Beach",
+      "city":"Eagle Beach",
+      "country": "Aruba",
+      "details":"Geniet van het warme zonnetje op de prachtige witte zandstranden van Eagle Beach en ontdek de wonderlijke onderwaterwereld tijdens een duik in de helder blauwe zee. Eagle Beach is het breedste en mooiste palmenstrand van Aruba. Deze plaats wordt ook wel de Low Rise area genoemd, wat betrekking heeft op de laagbouw in deze omgeving. Er wordt niet hoger dan vier etages gebouwd in tegenstelling tot Palm Beach, de High Rise area, waar veel hoogbouw te zien is.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 12.5512755,
+      "longitude":-70.0564547
+    },
+    {
+      "label": "Oranjestad",
+      "city":"Oranjestad",
+      "country": "Aruba",
+      "details":"I Love Aruba: grote kans dat die gedachte in je opkomt tijdens een zonvakantie op Aruba, want op dit eiland word je beslist verliefd! En wat is er nou leuker dan het gelijknamige logo vast te leggen in de hoofdstad Oranjestad? Het luxe 4 sterren appartement van TUI is gevestigd in hartje centrum en is de ideale uitvalsbasis om bezienswaardigheden als Fort Zoutman te bezoeken; een militaire vesting waar de Willem III toren prijkt in de kleuren van de Nederlandse vlag. Ook winkelliefhebbers kunnen hier hun hart ophalen. Shop till you drop aan de Caya Bettico Croes - beter bekend als Main Street - waar koloniale gebouwen in pastelkleuren de boventoon voeren. Ook zijn er een aantal luxe winkelcentra in Oranjestad te vinden, zoals Renaissance Mall of Aventura Mall. Als kers op de taart heeft Oranjestad zelf ook een prachtig zandstrand: Renaissance Beach.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 12.510052,
+      "longitude": -70.009354
+    },
+    {
+      "label": "Palm Beach",
+      "city":"Palm Beach",
+      "country": "Aruba",
+      "details":"Jezelf onder de wuivende palmbomen verliezen op een parelwit zandstrand: dan kies je natuurlijk voor een zonvakantie in Palm Beach, dé badplaats van Aruba. Haal een biertje bij de swim-up bar van het hotel van TUI voor je op duikvakantie het Antilla scheepswrak verkent. Verras je partner met een sunset cruise per catamaran of ga samen winkelen in de hoofdstad van Aruba, Oranjestad. Als de zwoele avond valt is er vast nog tijd voor een Coecoei cocktail in de bars van Palm Beach.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude":26.838619 ,
+      "longitude":-80.129967
+    },
+    {
+      "label": "Copenhagen",
+      "city":"Copenhagen",
+      "country": "Denemarken",
+      "details":"Wie dacht dat het tijdens een vakantie in Denemarken alleen om de natuur draait heeft het mis. Een dagtrip of weekendje weg naar Kopenhagen mag niet ontbreken. De hoofdstad ligt in de regio Seeland en is vanuit een vakantiepark op dit eiland goed te bereiken. Maar ook een stedentrip Kopenhagen boek je bij TUI. Na aankomst kun je meteen op de foto met de Kleine Zeemeermin of Scandinavisch kunst shoppen op de langste autovrije winkelstraat van Europa: Strøget. Bijkomen kan in het pittoreske Nyhavn met zijn pastelkleurige pakhuizen en gezellige terrassen. Al kun je in het luxe hotel van TUI ook de spa opzoeken na een lange dag sightseeing.",
+      "type": [
+        "hotel","mountain","sightseeing"
+      ],
+      "latitude": 55.67594 ,
+      "longitude": 12.56553
     }
   ]
 }

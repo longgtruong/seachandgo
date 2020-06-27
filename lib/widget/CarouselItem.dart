@@ -3,13 +3,15 @@ import 'package:percent_indicator/percent_indicator.dart';
 import 'package:searchtogo/models/tuidestinations.dart';
 import 'package:searchtogo/screens/destination_screen.dart';
 
+import '../MainBloc.dart';
 import '../Result.dart';
 
 class CarouselItem extends StatelessWidget {
 
   final Result result;
+  final MainBloc mainBloc;
 
-  CarouselItem(this.result);
+  CarouselItem(this.result, this.mainBloc);
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +19,7 @@ class CarouselItem extends StatelessWidget {
     String label = result.destination.getLabel;
     return GestureDetector(
       onTap: () => Navigator.push(context,
-          MaterialPageRoute(builder: (_) => DestinationPage(destination))),
+          MaterialPageRoute(builder: (_) => DestinationPage(destination,mainBloc))),
       child: Container(
         width: 300.0,
         child: Stack(

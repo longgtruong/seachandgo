@@ -14,10 +14,32 @@ class HomeRepo {
 
   var destinations;
 
+  List<TUIDestination> favorites = [];
+
   loadDestinations() async {
     await rootBundle.loadString('assets/tflite/destinations.json').then((value) => {
       destinations = jsonDecode(value)["destinations"]
     });
+  }
+
+  addToFavorites(TUIDestination destination) {
+    if (!isFavorited(destination)) {
+      favorites.add(destination);
+    }
+  }
+
+  removeFromFavorites(TUIDestination destination) {
+    if (isFavorited(destination)) {
+      favorites.remove(destination);
+    }
+  }
+
+  bool isFavorited(TUIDestination destination) {
+    if(favorites.contains(destination)) {
+      return true;
+    } else {
+      return false;
+    }
   }
 
   getDestination(String label) {
@@ -54,9 +76,6 @@ class HomeRepo {
     print(output);
 
     List<Result> results = [];
-
-    TUIDestination destination = getDestination("Holguin");
-    print(destination.country);
 
     for (int i=0;i<output.length;i++) {
       String o = output[i]["label"].toString();
